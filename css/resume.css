@@ -70,6 +70,19 @@
     color: #c94caa;
 }
 
+.grey {
+    color: grey;
+}
+
+.grey:hover {
+    color: #c94caa;
+    text-decoration: none;
+}
+
+.hover-img img:hover {
+    opacity:0.7;
+}
+
 .dan {
     margin: 10px;
     opacity: 0.8;
