@@ -120,3 +120,8 @@ i {
 .indent {
     text-indent: 10px;
 }
+
+.modal-title {
+    color: #c94caa;
+    font-weight: bold;
+}
