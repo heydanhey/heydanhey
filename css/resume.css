@@ -1,4 +1,10 @@
+body {
+  background-image: url("../images/topography.png");
+  background-repeat: repeat;
+}
+
 .page {
+    background-color: white;
     border: solid;
     border-color: black;
     border-width: 1px;
@@ -38,7 +44,6 @@
 .border-bottom {
     border-bottom: solid;
     border-width: 0.5px;
-    /*padding-top: 5px;*/
     padding-bottom: 5px;
     border-color: lightgrey;
 }
@@ -121,7 +126,21 @@ i {
     text-indent: 10px;
 }
 
+.modal-header {
+    background-color: lightgrey;
+    border-bottom: solid 2px grey;
+}
+
 .modal-title {
-    color: #c94caa;
+    color: white;
+    text-align: center;
     font-weight: bold;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-footer {
+    display: none;
 }
