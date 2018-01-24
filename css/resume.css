@@ -3,6 +3,10 @@ body {
   background-repeat: repeat;
 }
 
+a:hover {
+    text-decoration: none;
+}
+
 .page {
     background-color: white;
     border: solid;
